@@ -1,4 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+nav {
+  background-color: rgb(8, 27, 48);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: rgb(25, 61, 102);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background: var(--background);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  color: rgb(25, 61, 102);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,8 +48,4 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-}
-
-nav {
-  background-color: bisque;
 }/*# sourceMappingURL=main.css.map */
